@@ -1,5 +1,3 @@
-package calculator;
-
 import java.util.Scanner;
 
 public class Application {
@@ -24,8 +22,7 @@ public class Application {
                 }
                 case 2: {
                     result = sub(number1, number2);
-                    System.out.println(2
-                            "Subtraction is " + result);
+                    System.out.println("Subtraction is " + result);
                     break;
                 }
 
@@ -41,4 +38,4 @@ public class Application {
     public static float sub(float a, float b){
         return a - b;
     }
-    }
+}
